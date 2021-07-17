@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google APIs Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Google APIs Icons End -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Sahitya" rel="stylesheet">
+<!-- Google Fonts End -->
+
+<!-- Viewport Meta Tag -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Viewport Meta Tag End -->
+<!-- Style -->
+<style>
+* {font-family: 'Sahitya', serif;}
+
+#div_ontop {
+    width: 75%;
+    height: 15%;
+    margin: 2% 12.5% 0% 12.5%;
+    padding: 0px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    clear: both;
+    text-align: center;}
+	
+#div_ontop>h1 {
+	margin: 2% auto 0% auto;}	
+	
+@media (min-width:480px) and (max-width:880px) {
+    #div_ontop>h1 {
+	margin: 4% 5% 0% 5%;
+	}}
+	
+@media (max-width:480px) {
+    #div_ontop>h1 {
+	margin: 8% 5% 0% 5%;
+	}}
+	
+#div_pic_left{}
+#div_pic_right{}
+#div_text_top{}
+
+#div_baloons_left {
+    width: 50%;
+    height: 8.33%;
+    margin: 2% 0% 2% 12.5%;
+    padding: 0px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: pink;
+    float: left;
+    clear: right;
+	text-align:justify;
+	}
+	
+#div_baloons_right {
+    width: 50%;
+    height: 8.33%;
+    margin: 0% 12.5% 0% 0%;
+    padding: 0px;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: lightblue;
+    float: right;
+    clear: left;
+    text-align:justify;
+	}
+
+#text_top {
+    width:75%;
+	margin:0% auto 2% auto;
+	padding: 0% 5% 0% 5%;
+    text-align: center;}
+	
+#text_baloons{
+	margin:1% 12.5% 2% 12.5%;
+}
+
+#text_baloons_date {
+	margin:2% auto 2% auto;
+	text-align:center;
+	}
+	
+#text_baloon_number {
+	float:left;
+	text-align:center;
+	margin:0% 0% 0% 12.5%;}
+
+#text_baloon_playicon {
+	margin: 0% 12.5% 0% 0%;
+    float: right;}
+	
+#text_baloon_plays {
+	float:right;
+	text-align:center;
+	margin:0% 0.5% 0% 0%;}	
+	
+#hr_baloons_top {
+	width:75%;
+	margin: 0% auto 4% auto;
+    border: solid black 0.5px;}	
+	
+#hr_baloons_bottom {
+	width:75%;
+	margin: 0% auto 3% auto;
+    border: solid black 0.5px;}	
+	
+#audio {
+	width:75%;
+	//max-width:75%;
+	margin:0% 12.5% 0% 12.5%;}
+</style>
+<!-- Style End -->
+
+</head>
+<body>
+<!-- Top Text -->
+<div id="div_ontop"><h1>Join the Journey</h1>
+<hr width="75%" style="border:solid black 0.5px;">
+<p id="text_top">of an energy expert
+and a physicist trying to understand how these two areas of interest interconnect</p></div>
+<!-- Top Text End -->
+
+<!-- 1st Message -->
+<div id="div_baloons_left">
+	<!-- Top Part -->
+	<p id="text_baloons_date">28.02.2017,08:11 GMT</p>
+	<hr id="hr_baloons_top">
+	<!-- Top Part End -->
+	
+	<!-- Middle Part -->
+	<div style="height:100%; width:100%; overflow:hidden;">
+	<audio controls id="audio">
+		<source src="001 frequancy.m4a" type="audio/mpeg">No audio
+	</audio>
+	</div>
+	<p id="text_baloons"></p>
+	<!-- Middle Part End -->
+	
+	<!-- Bottom Part -->
+	<hr id="hr_baloons_bottom">
+    <i class="material-icons">message</i>
+	<p id="text_baloon_number">#1</p>
+    <i id="text_baloon_playicon" class="material-icons">play_circle_outline</i>
+    <p id="text_baloon_plays"> #2</p>
+	<!-- Bottom Part End -->
+</div>
+
+<!-- 1st Message End -->
+<!--
+<div id="div_baloons_right">
+	<!-- Top Part 
+	<p id="text_baloons_date">01.02.2017,13:45</p>
+	<hr id="hr_baloons_top">
+	<!-- Top Part End 
+
+	<!-- Middle Part 
+	<audio controls id="audio">
+		<source src="1.m4a" type="audio/mpeg">No audio
+	</audio>
+	<p id="text_baloons">This is an example text. There
+	are some words written here that form a sentence, 
+	and here are some more.
+	</p>
+	<!-- Middle Part End 
+
+	<!-- Bottom Part 
+	<hr id="hr_baloons_bottom">
+    <i class="material-icons">message</i>
+	<p id="text_baloon_number">#1034</p>
+    <i id="text_baloon_playicon" class="material-icons">play_circle_outline</i>
+	<p id="text_baloon_plays"> #1034</p>
+	<!-- Bottom Part End 
+</div>
+<!-- First Couple Of Messages End -->
+
+</body>
+</html>

@@ -1,0 +1,3 @@
+﻿1. Trim audio recording #1 - last 6 secs
+2. Add comments feature to each baloon - check
+3. Updated "no. of plays" to reflect actual no. of plays
